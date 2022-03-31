@@ -1,0 +1,16 @@
+kind: Module
+
+# The type of this module.
+type: exec
+local: true
+# The name of this module.
+name: standalone-lib
+description: common to all REST services
+
+build:
+  dependencies: []
+  command: 
+    - "../build.sh standalone-lib"
+    
+  
+
